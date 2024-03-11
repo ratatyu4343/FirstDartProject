@@ -13,9 +13,6 @@ class Magazine extends PrintedMaterial {
     editor = "Unknown";
   }
 
-
-
-
   @override
   void printDetails() {
     print('Magazine: $title');
